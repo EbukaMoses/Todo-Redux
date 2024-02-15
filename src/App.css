@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #e5e5e5;
+  font-family: roboto;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10% auto;
+}
+.section h1 {
+  font-size: 3rem;
+  font-family: roboto;
+  font-weight: 900;
+  margin-bottom: 0.5rem;
+}
+.section h4 {
+  font-size: 2rem;
+  font-family: roboto;
+  margin-bottom: 1.5rem;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* css for the name page  */
+.page,
+.counter,
+.todo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15rem auto;
+}
+.page p {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+.page input {
+  width: 30%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+.page button {
+  width: 10%;
+}
+
+/* css for counter page  */
+.counter h4 {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+/* css for todo  */
+.todo h2 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+.todo input {
+  padding: 0.8rem;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
