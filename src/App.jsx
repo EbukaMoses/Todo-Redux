@@ -4,6 +4,7 @@ import Home from "./Components/Home/Home";
 import Counter from "./Components/Counter/Counter";
 import Counter5 from "./Components/Counter/Counter5";
 import Name from "./Components/Name/Name";
+import SignIn from "./Components/SignIn/SignIn";
 import Todo from "./Components/Todo/Todo";
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<SignIn />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/counter" element={<Counter />} />
           <Route path="/counter5" element={<Counter5 />} />
           <Route path="/name" element={<Name />} />
